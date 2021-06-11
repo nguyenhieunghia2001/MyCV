@@ -1,0 +1,71 @@
+:root {
+  --color-primary: #353353;
+  --color-font: #fff;
+  --color-btn: #ff4c60;
+}
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  background-color: var(--color-primary);
+}
+.logo-primary {
+  font-size: 35px;
+  font-weight: 900;
+}
+.logo-primary span {
+  color: #cc5c00;
+}
+.sidebar {
+  min-height: 100vh;
+  width: 300px;
+  color: var(--color-font);
+  border-right: 1px solid #bdbdbb;
+  padding: 50px;
+}
+.option-list .active {
+  color: #ffbb00;
+}
+.option-list ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.option-list ul li {
+  padding: 11px 0;
+}
+.option-list ul a {
+  text-decoration: none;
+  color: var(--color-font);
+  font-weight: 500;
+}
+.option-list .items .bi {
+  color: #ffbb00;
+  margin-right: 15px;
+}
+
+.btn{
+    border-radius: 30px;
+    padding: 7px 28px;
+}
+.btn-default {
+  background-color: var(--color-btn);
+  color: var(--color-font);
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.user__avatar{
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    background-image: url(https://img-cdn.pixlr.com/pixlr-templates/60a1ffb26a17ef389898fdd8/preview.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+}
+.section-home{
+    color: var(--color-font);
+}
+.user__social .bi{
+    margin: 0 5px;
+    font-size: 20px;
+}
