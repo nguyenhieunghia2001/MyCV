@@ -1,0 +1,8 @@
+@media (max-width: 1080px){
+    .sidebar{
+        transform: translateX(-300px);
+    }
+    .main-body{
+        margin-left: 0;
+    }
+}
